@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather</title>
+    <link rel="icon" href="./IMG/Anonymous-Sun.svg" />
+  </head>
+  <body>
+    <header>
+      <div class="headerdiv">
+        <img
+          src="./IMG/Anonymous-Sun.svg"
+          alt="cloud"
+          id="cloud"
+          width="50px"
+        />
+        <h1>Weather By Giorgi Machitadze</h1>
+      </div>
+
+      <div class="headerdiv">
+        <a href="https://github.com/">Github</a>
+        <a
+          href="https://www.creativefabrica.com/wp-content/uploads/2020/07/03/Nothing-to-See-Here-Illustration-Graphics-4531211-1.png"
+          >About</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <nav id="mainWeatherPage">
+        <div class="head">
+          <img id="sun" src="./IMG/sunicon.png" alt="Sunny" />
+
+          <div>
+            <p id="cityname"></p>
+            <p id="date"></p>
+          </div>
+        </div>
+
+        <div id="temperatureDiv">
+          <p id="temperature"></p>
+          <p id="description"></p>
+        </div>
+
+        <section>
+          <div>
+            <div class="iconandtext">
+              <img id="icon" src="./IMG/eyeicon.png" alt="eyeicon" />
+              <p>
+                visibility
+                <span id="visibility"></span>
+              </p>
+            </div>
+            <div class="iconandtext">
+              <img
+                id="icon"
+                src="./IMG/humidity-svgrepo-com.svg"
+                alt="humidity"
+              />
+              <p>humidity <span id="humidity"></span></p>
+            </div>
+          </div>
+
+          <div>
+            <div class="iconandtext">
+              <img id="icon" src="./IMG/thermometer.png" alt="thermometer" />
+              <p>feels like <span id="feelslike"></span></p>
+            </div>
+
+            <div class="iconandtext">
+              <img id="icon" src="./IMG/windicon.png" alt="wind" />
+              <p>wind <span id="wind"></span></p>
+            </div>
+          </div>
+        </section>
+      </nav>
+
+      <button id="button">
+        <p class="plus">+</p>
+        <p>Add New Location</p>
+      </button>
+    </main>
+
+    <footer>
+      <p>
+        Made with<span
+          ><img src="./IMG/Hearticon.svg" alt="Hearticon" width="20px" /></span
+        >by Giorgi Machitadze
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
